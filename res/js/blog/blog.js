@@ -26,10 +26,10 @@ function setBlog(page,name) {
 	show.innerHTML += page
 	show.innerHTML += `<br><br><br><br><br><br><br><br>
 	<div onclick="resetBlog()" style="margin-top:25px;">
-		<img clk style="filter: invert(40%)" src="https://image.flaticon.com/icons/png/512/93/93634.png" width="100px">
+		<img draggable="false" clk style="filter: invert(40%)" src="https://image.flaticon.com/icons/png/512/93/93634.png" width="100px">
 	</div><br>
 	<div onclick="copyBlog()" style="margin-top:25px;">
-		<img clk style="filter: invert(40%)" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Chain_link_icon.png" width="100px">
+		<img draggable="false" clk style="filter: invert(40%)" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Chain_link_icon.png" width="100px">
 	</div>`
 }
 
