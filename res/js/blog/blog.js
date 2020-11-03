@@ -41,7 +41,7 @@ function makeList(el,page) {
 	el.innerHTML += `<div class="Year">${page.Date}</div>`
 	for(var txt of page.Pages) {
 		var ttt = txt[2].replace(/"/g, '\\\"').replace(/'/g, '\\\"');
-		el.innerHTML += `<h4 style="text-decoration:underline;" clk onclick='setBlog("${ttt}","${txt[1]}")'>${txt[0]} - ${txt[1]}</h4>`
+		el.innerHTML += `<span>${txt[0]} - <a style="text-decoration:underline;" clk onclick='setBlog("${ttt}","${txt[1]}")'>${txt[1]}</a></span>`
 	}
 	el.innerHTML += "<br><br><br><br>"
 
