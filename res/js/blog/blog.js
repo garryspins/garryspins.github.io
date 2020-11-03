@@ -34,7 +34,7 @@ function setBlog(page,name) {
 }
 
 function copyBlog() {
-	writeText("https://https://garryspins.github.io/blog/index.html?page="+encodeURI(active))
+	writeText("https://garryspins.github.io/blog/index.html?page="+encodeURI(active))
 }
 
 function makeList(el,page) {
