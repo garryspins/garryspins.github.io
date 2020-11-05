@@ -1,5 +1,15 @@
 const projects_list = [
 	{
+		"Date":"Nov 2020",
+		"Finished": [
+			["2nd","Elemental Server's F4"],
+			["4th", "Cursors", "https://wiki.facepunch.com/gmod/Cursors"]
+		],
+		"InProgress": [
+			["3rd","Acrylic UI"]
+		]
+	},
+	{
 		"Date":"Oct 2020",
 		"Finished": [
 			["24th","New Website"],	
@@ -10,16 +20,6 @@ const projects_list = [
 		],
 		"Unfinished": [
 			["23rd","RazerUI"]
-		]
-	},
-	{
-		"Date":"Nov 2020",
-		"Finished": [
-			["2nd","Elemental Server's F4"],
-			["4th", "Cursors", "https://wiki.facepunch.com/gmod/Cursors"]
-		],
-		"InProgress": [
-			["3rd","Acrylic UI"]
 		]
 	}
 ]
