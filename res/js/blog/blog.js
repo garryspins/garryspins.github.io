@@ -26,8 +26,11 @@ function setBlog(page,name) {
 	document.getElementById("Title").innerHTML = name+" | Orions Site"
 	var show = document.getElementById("BlogShow");
 	active = name
+	var metacont = page.substring(0,47) 
 	show.innerHTML = `
 		<meta property="og:title" content="Orions Site | ${name}">
+		<meta property="og:title" content="Orions Site | ${name}">
+		<meta property="og:description" content="${metacont}...">
 	`
 	show.innerHTML += unescape(page)
 	show.innerHTML += `<br><br><br><br><br><br><br><br>
@@ -40,7 +43,7 @@ function setBlog(page,name) {
 }
 
 function copyBlog() {
-	writeText("https://garryspins.github.io/blog/index.html?page="+encodeURI(active))
+	writeText("https://garryspins.github.io/blog/?page="+encodeURI(active))
 }
 
 function makeList(el,page) {
