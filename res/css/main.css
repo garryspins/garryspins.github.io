@@ -2,6 +2,7 @@
 
 /* Misc Selectors */
 
+
 *:active {
  	border-width:0px;
 }
@@ -29,8 +30,8 @@ a:hover,[clk]:hover {
 }
 
 footer {
-	position:absolute;
-	bottom:5%;
+	position:relative;
+	bottom:-10%;
 }
 	
 .Year,.subYear {
@@ -44,6 +45,7 @@ footer {
 
 /* Body */
 body {
+	height:150%;
 	margin-top:20px;
 	margin-bottom:20px;
 	font-family:"Rubik";

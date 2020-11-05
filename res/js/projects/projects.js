@@ -15,7 +15,8 @@ const projects_list = [
 	{
 		"Date":"Nov 2020",
 		"Finished": [
-			["2nd","Elemental Server's F4"]
+			["2nd","Elemental Server's F4"],
+			["4th", "Cursors", "https://wiki.facepunch.com/gmod/Cursors"]
 		],
 		"InProgress": [
 			["3rd","Acrylic UI"]
