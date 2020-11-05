@@ -26,11 +26,8 @@ function setBlog(page,name) {
 	document.getElementById("Title").innerHTML = name+" | Orions Site"
 	var show = document.getElementById("BlogShow");
 	active = name
-	var metacont = page.substring(0,47) 
 	show.innerHTML = `
 		<meta property="og:title" content="Orions Site | ${name}">
-		<meta property="og:title" content="Orions Site | ${name}">
-		<meta property="og:description" content="${metacont}...">
 	`
 	show.innerHTML += unescape(page)
 	show.innerHTML += `<br><br><br><br><br><br><br><br>
@@ -55,7 +52,8 @@ function makeList(el,page) {
 	el.innerHTML += "<br><br><br><br>"
 
 	if(pageName != null && pageName.toLowerCase() == txt[1].toLowerCase()) {
-		setBlog(ttt,txt[1])
+		el.innerHTML = "Loading...<br><br><br>"
+		setTimeout(function(){setBlog(ttt,txt[1])},300)
 		pageName = null
 	}
 }
