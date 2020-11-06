@@ -18,6 +18,11 @@ h2 {
 span {
 	display:inline-block;
 	white-space:pre;
+	position:relative;
+	text-align:left;
+	border-bottom-width:1px;
+	border-bottom-color:rgba(55,55,55,0.9);
+	border-bottom-style:dotted;
 }
 
 a,[clk] {
