@@ -30,7 +30,7 @@ function setBlog(page,name) {
 		<meta property="og:title" content="Orions Site | ${name}">
 	`
 	show.innerHTML += unescape(page)
-	show.innerHTML += `<br><br><br><br><br><br><br><br>
+	show.innerHTML += `<pre><br><br>Sincerely, Whiny Soydev - Orion</pre><br><br><br><br><br><br>
 	<div onclick="resetBlog()" style="margin-top:25px;">
 		<img draggable="false" clk style="filter: invert(40%)" src="https://image.flaticon.com/icons/png/512/93/93634.png" width="100px">
 	</div><br>
