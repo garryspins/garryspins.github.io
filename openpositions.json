@@ -5,9 +5,9 @@
     "Moderator":1
   },
   "ingame":{
-    "Director Of Task Forces":1,
+    "Director Of Task Forces":0,
     "Director Of Foundation Security":1,
-    "Director Of Research":1,
+    "Director Of Research":0,
     "Site Director":0
   }
 }
