@@ -1,13 +1,13 @@
 {
   "staff":{
-    "Head Gamemaker":"Open",
-    "Head Admin":"Open",
-    "Moderator":"Open"
+    "Head Gamemaker":1,
+    "Head Admin":1,
+    "Moderator":1
   },
   "ingame":{
-    "Director Of Task Forces":"Open",
-    "Director Of Foundation Security":"Open",
-    "Director Of Research":"Open",
-    "Site Director":"Closed"
+    "Director Of Task Forces":1,
+    "Director Of Foundation Security":1,
+    "Director Of Research":1,
+    "Site Director":0
   }
 }
